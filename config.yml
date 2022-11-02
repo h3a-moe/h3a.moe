@@ -1,0 +1,123 @@
+baseURL: ""
+title: 化猫の幻
+paginate: 5
+theme: PaperMod
+copyright: "© 2022 [h3a.moe](https://h3a.moe)"
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 化猫の幻
+  description: "Hexo ～丢人～"
+  keywords: []
+  author: H3arn
+  # author: ["Me", "You"] # multiple authors
+  images: [""]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "img/icon.png"
+    favicon16x16: "img/icon.png"
+    favicon32x32: "img/icon.png"
+    apple_touch_icon: "img/icon.png"
+    safari_pinned_tab: "img/icon.png"
+
+  label:
+    text: "化猫の幻"
+    icon: 
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: H3arn
+    subtitle: "我的痛苦與歡欣都是真的，鮮活的，我不後悔。"
+    imageUrl: "img/myavatar.jpg"
+    # imageWidth: 150
+    # imageHeight: 150
+    imageTitle: Avatar
+    buttons:
+      - name: Blog
+        url: "https://blog.h3a.moe"
+      - name: Misc
+        url: "https://misc.h3a.moe"
+
+  socialIcons:
+    - name: keybase
+      url: "/about/#pgp"
+    - name: github
+      url: "https://github.com/H3arn"
+    - name: gitlab
+      url: "https://gitlab.com/H3arn"
+    - name: telegram
+      url: "https://t.me/h3a_moe"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
