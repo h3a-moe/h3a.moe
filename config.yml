@@ -61,7 +61,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: H3arn
-    subtitle: "我的痛苦與歡欣都是真的，鮮活的，我不後悔。"
+    subtitle: "*我的痛苦與歡欣都是真的，鮮活的，我不後悔。*"
     imageUrl: "img/myavatar.jpg"
     # imageWidth: 150
     # imageHeight: 150
