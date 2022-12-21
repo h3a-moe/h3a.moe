@@ -81,6 +81,8 @@ params:
       url: "https://gitlab.com/H3arn"
     - name: telegram
       url: "https://t.me/h3a_moe"
+    - name: mastodon
+      url: "https://mstdn.social/@H3arn"
 
   cover:
     hidden: true # hide everywhere but not in structured data
