@@ -101,6 +101,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Friends
+      name: Friends
+      url: https://blog.h3a.moe/link
+      weight: 5
     - identifier: About
       name: About
       url: /about/
@@ -109,10 +113,6 @@ menu:
     #   name: tags
     #   url: /tags/
     #   weight: 20
-    - identifier: Friends
-      name: Friends
-      url: https://blog.h3a.moe/link
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
