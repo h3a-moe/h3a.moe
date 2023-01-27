@@ -21,13 +21,11 @@ updated: 2021-09-14 16:52:00
 <!--div style='white-space: pre-wrap; font-variant-ligatures: none; font-family: JetBrains Mono, monospace; font-size: 90%;'--> 
 
 
-Hi, there. This is `H3arn`, 
+Hi, there. This is `H3arn`.
 
-one ordinary person, 
+An ordinary person, who believes in openness but somehow traditional.
 
-who believes in openness but somehow traditional.
-
-Trivial. Old-fashioned. Foolish. Stubborn. Jealous. 
+Trivial. Old-fashioned. Foolish. Stubborn. Green-eyed. 
 
 Interested in STEAM. Computers and Networking, especially.
 
@@ -42,34 +40,38 @@ Want to be a literary girl, more than anything.
 
 ## PGP
 
+---
+
 ***This key will expire on 2024-07-15.***
 
 ***If the key was not renewed and no new key was released by that time, I would have probably been imprisoned or even dead then.***
 
-You can get it [here](https://keys.openpgp.org/vks/v1/by-fingerprint/364864A3A1AF4174D9BDE7C66076CBBA23E98A57), from the key pool of `openpgp.org` 
+---
 
-or [from GitHub](https://github.com/H3arn.gpg) 
+Get my public key from [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc)
 
+[Codeberg](https://codeberg.org/H3arn.gpg) (Be cautious with inconsistent byte length indicator)
 
+*You might find my keys on `keys.openpgp.org`, `pub.mit.edu`, and `keyserver.ubuntu.com`. I will try my best effort to update my key on these sites, but I will **NOT** be responsible for any consequences caused by using public keys of `3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57` from those sites.* 
 
 <!--I once shared [an article](https://www.douban.com/note/763978955/) about PGP uid collision, which since then inspired a lot of people to exploit their computers for calculating a cool PGP uid. But this also brings a higher risk of MITM attack. I deeply apologize for that.--> 
 
-Considering the current capability of common brute force solutions, it's no longer a reliable method using 16-char hex uid to verify the identity. 
+<!--Considering the current capability of brute force attack, it's no longer a reliable method using 64-bit uid to verify the identity.--> 
 
-Thus, **the fingerprints of all the subkeys have to be verified**. For example: 
+<!--Thus, **the fingerprints of all the subkeys have to be verified**. For example:--> 
+
+**Must confirm that all four fingerprints are correct before you import the keys:**
 
 ```bash
 $ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
 ```
 
-The output below this is expected, **all four fingerprints** must **exactly** match the result below. 
-
-**Remember to confirm that all four fingerprints are correct before you import the keys!**
+The output below is expected, all four fingerprints must exactly match the result below. 
 
 ```text
 pub   ed25519 2021-09-07 [C] [expires: 2024-07-15]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
-uid           [ultimate] H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
+uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
 sub   ed25519 2021-09-07 [S] [expires: 2024-07-15]
       B71D A984 8E17 C6E7 72A3  C3C4 FD11 06C9 445D 42D0
 sub   cv25519 2021-09-07 [E] [expires: 2024-07-15]
@@ -85,28 +87,24 @@ BTW, here is a copy of my public keys.
 
 mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
 /iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
-ZT6IlgQTFggAPgIbAQULCQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBDZIZKOhr0F0
-2b3nxmB2y7oj6YpXBQJhxgHeBQkFXdJyAAoJEGB2y7oj6YpXu20A/3wSIBY1H7aU
-0ItkrI4eICdRSfClO4tbneOtTMzj14gPAP4lzQRqmUMGZeMf3NEQLDyvzVvxeG+c
-BkC3eHlxCL8/CoiQBBMWCAA4FiEENkhko6GvQXTZvefGYHbLuiPpilcFAmE2zE4C
-GwEFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQYHbLuiPpilfjPwD+JrzWYGCG
-FZmvdsYrDgGDv9/22b5AbyHbha0TEiTbYbMBAPA7bdjeyKdCm01JrPPw6LpzcMXb
-IXy4HYYQ0TKifpcIuDMEYTbMsxYJKwYBBAHaRw8BAQdAtb1RvhxVJ56/iMv2/GWj
-FcGuy5XPVXKx+07Ap9nYROaI9QQYFggAJgIbAhYhBDZIZKOhr0F02b3nxmB2y7oj
-6YpXBQJhxgH0BQkFXdINAIF2IAQZFggAHRYhBLcdqYSOF8bncqPDxP0RBslEXULQ
-BQJhNsyzAAoJEP0RBslEXULQJi8A+wawWpZsNIADJmEs4mUkElzcX7wQP5jh6PCI
-6hTAhZLuAQCeaVMy6FLuBey4rkUTMcvqwp11A8caUOEbN9wTXUdCCwkQYHbLuiPp
-ileXOQD+MPNAaZ+VtuITUUhZFESf+x3LXJwtGMoEnN5XBPzbLAwBALKvqF602u04
-ItgTp34OH2YPLlIf+SlKI7JBIhLvmyQIuDgEYTbM1hIKKwYBBAGXVQEFAQEHQNEO
-UMFONDEpCIAT51FskJQ3xpQ3CR8CxMCqIPshU3MSAwEIB4h+BBgWCAAmAhsMFiEE
-Nkhko6GvQXTZvefGYHbLuiPpilcFAmHGAgYFCQVd0eoACgkQYHbLuiPpilc6FAD7
-BP7KlNzL6ukoKgEfLtYlpMc12aAXUyYdSYvvL4xFElYA/jnwlHuEBkAOGePmDiMF
-eeza/5LoZTkMqix9h52wCrkCuDMEYTbM5BYJKwYBBAHaRw8BAQdAEZ3p5owTW2oo
-Re4j4GLA6rotKydFY+2AZdGSNBnNhdSIfgQYFggAJgIbIBYhBDZIZKOhr0F02b3n
-xmB2y7oj6YpXBQJhxgIRBQkFXdHcAAoJEGB2y7oj6YpXKhcA/2s2vi8jBrPCpC6G
-OdqBukw7RKh5SRoF16t0GPh22sd+AP9dS4QozW9tv8k8RfkHtFYANDmNEHq8/6W1
-Sl99yK/YBQ==
-=pyvr
+ZT6IkAQTFggAOAIbAQIeAQIXgAUJBV3SchYhBDZIZKOhr0F02b3nxmB2y7oj6YpX
+BQJjznKKAgsJAhUJBRYCAwEAAAoJEGB2y7oj6YpXNgEBAN/9+2vOcl7skA+13Wd1
+QQWWkGsw0iSATLiazHsD20BLAP9y+vt5IpbtsEws6WfmmsRbJlxplW64VUtwIWMQ
+N7xmArgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
+sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCYcYB
+9AUJBV3SDQCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
+CRD9EQbJRF1C0CYvAPsGsFqWbDSAAyZhLOJlJBJc3F+8ED+Y4ejwiOoUwIWS7gEA
+nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXlzkA/jDz
+QGmflbbiE1FIWRREn/sdy1ycLRjKBJzeVwT82ywMAQCyr6hetNrtOCLYE6d+Dh9m
+Dy5SH/kpSiOyQSIS75skCLg4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
+E+dRbJCUN8aUNwkfAsTAqiD7IVNzEgMBCAeIfgQYFggAJgIbDBYhBDZIZKOhr0F0
+2b3nxmB2y7oj6YpXBQJhxgIGBQkFXdHqAAoJEGB2y7oj6YpXOhQA+wT+ypTcy+rp
+KCoBHy7WJaTHNdmgF1MmHUmL7y+MRRJWAP458JR7hAZADhnj5g4jBXns2v+S6GU5
+DKosfYedsAq5ArgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
+LSsnRWPtgGXRkjQZzYXUiH4EGBYIACYCGyAWIQQ2SGSjoa9BdNm958Zgdsu6I+mK
+VwUCYcYCEQUJBV3R3AAKCRBgdsu6I+mKVyoXAP9rNr4vIwazwqQuhjnagbpMO0So
+eUkaBderdBj4dtrHfgD/XUuEKM1vbb/JPEX5B7RWADQ5jRB6vP+ltUpffciv2AU=
+=aqmi
 -----END PGP PUBLIC KEY BLOCK-----
 
 ```
