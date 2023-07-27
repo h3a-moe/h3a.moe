@@ -20,16 +20,15 @@ updated: 2021-09-14 16:52:00
 
 <!--div style='white-space: pre-wrap; font-variant-ligatures: none; font-family: JetBrains Mono, monospace; font-size: 90%;'--> 
 
+Hi, there. This is `H3arn`. (Read as "Hearn". You can call me "安然" as well.)
 
-Hi, there. This is `H3arn`.
-
-An ordinary person, who believes in openness but somehow traditional.
+An ordinary person, who believes in openness but somehow traditional. 
 
 Trivial. Old-fashioned. Foolish. Stubborn. Green-eyed. 
 
-Interested in STEAM. Computers and Networking, especially.
+Interested in STEAM. Computers and Networking, especially. 
 
-Want to be a literary girl, more than anything.
+Want to be a literary girl, more than anything. 
 
 
 
