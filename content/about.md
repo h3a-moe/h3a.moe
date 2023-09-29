@@ -47,11 +47,9 @@ Want to be a literary girl, more than anything.
 
 ---
 
-Get my public key from [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc)
+Get my public key from [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc) / [Codeberg](https://codeberg.org/H3arn.gpg) 
 
-[Codeberg](https://codeberg.org/H3arn.gpg) (Be cautious with inconsistent byte length indicator)
-
-*You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubuntu.com`. I will try my best effort to update my key on these sites, but I will **NOT** be responsible for any consequences caused by using public keys of `3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57` from those sites.* 
+*You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubuntu.com`. I will try my best effort to update my key on these sites<!--, but **NOT** responsible for any consequences caused by using public keys of `3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57` from those sites-->.* 
 
 <!--I once shared [an article](https://www.douban.com/note/763978955/) about PGP uid collision, which since then inspired a lot of people to exploit their computers for calculating a cool PGP uid. But this also brings a higher risk of MITM attack. I deeply apologize for that.--> 
 
