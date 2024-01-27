@@ -2,7 +2,7 @@ baseURL: "/"
 title: 化猫の幻
 paginate: 5
 theme: PaperMod
-copyright: "Copyright © 2021 - 2023 [h3a.moe](https://h3a.moe)"
+copyright: "Copyright © 2021 - 2024 [h3a.moe](https://h3a.moe)"
 
 
 enableRobotsTXT: true
@@ -71,8 +71,8 @@ params:
         url: "https://blog.h3a.moe"
       - name: Misc
         url: "https://misc.h3a.moe"
-      - name: Activity Record
-        url: "https://activity-record.h3a.moe"
+      - name: Blog Archive v1
+        url: "https://blog-archive-v1.h3a.moe"
  
   socialIcons:
     - name: key
