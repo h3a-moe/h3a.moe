@@ -103,8 +103,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Friends
-      name: Friends
+    - identifier: Links
+      name: Links
       url: https://blog.h3a.moe/link
       weight: 5
     - identifier: About
