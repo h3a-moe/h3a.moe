@@ -20,7 +20,7 @@ updated: 2021-09-14 16:52:00
 
 <!--div style='white-space: pre-wrap; font-variant-ligatures: none; font-family: JetBrains Mono, monospace; font-size: 90%;'--> 
 
-Hi, there. This is `H3arn`. (Read as "Hearn". You can call me "安然" as well.)
+Hi, there. This is `H3arn`. Read as "Hearn".
 
 An ordinary person, who believes in openness but somehow traditional. 
 
