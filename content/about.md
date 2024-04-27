@@ -106,3 +106,24 @@ XuzR04FZ+WJVT0kAtAEAzu9X4bleEnt8Oj1KuQwKOpNdXjveJjRqjUHbjznH9gY=
 
 
 ```
+
+
+## Contact
+
+Apart from my email listed in PGP public key, it's possible to reach me via Matrix too. 
+
+Preferred choice: `@h3arn:nitro.chat`
+
+I also own the following accounts, but I don't check them regularly. 
+
+```TXT
+@h3arn:nya.one
+@h3arn:nope.chat
+@h3arn:libcom.de
+@h3arn:comm.cx
+@h3arn:matrix.fedibird.com
+@h3arn:chat.usr.nz
+---
+@h3arn:matrix.org  (NOT recommended)
+@h3arn:mozilla.org (NOT recommended)
+```
