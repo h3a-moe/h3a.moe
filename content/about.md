@@ -41,7 +41,7 @@ Want to be a literary girl, more than anything.
 
 ---
 
-***This key will expire on 2024-12-31.***
+***This key will expire on 2025-12-31.***
 
 ***If the key was not renewed and no new key was released by that time, I would have probably been imprisoned or even dead then.***
 
@@ -49,7 +49,7 @@ Want to be a literary girl, more than anything.
 
 Get my public key from [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https://gitlab.com/H3arn.gpg) / [Keybase](https://keybase.io/h3arn/pgp_keys.asc) / [Codeberg](https://codeberg.org/H3arn.gpg) 
 
-*You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubuntu.com`. I will try my best effort to update my key on these sites<!--, but **NOT** responsible for any consequences caused by using public keys of `3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57` from those sites-->.* 
+You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubuntu.com`. I will try my best effort to update my key on these sites<!--, but **NOT** responsible for any consequences caused by using public keys of `3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57` from those sites-->. 
 
 <!--I once shared [an article](https://www.douban.com/note/763978955/) about PGP uid collision, which since then inspired a lot of people to exploit their computers for calculating a cool PGP uid. But this also brings a higher risk of MITM attack. I deeply apologize for that.--> 
 
@@ -59,21 +59,17 @@ Get my public key from [GitHub](https://github.com/H3arn.gpg) / [Gitlab](https:/
 
 **Must confirm that all four fingerprints are correct before you import the keys:**
 
-```bash
-$ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
-```
-
-The output below is expected, all four fingerprints must exactly match the result below. 
-
 ```text
-pub   ed25519 2021-09-07 [C] [expires: 2024-12-31]
+$ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
+
+pub   ed25519 2021-09-07 [C] [expires: 2025-12-31]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
 uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
-sub   ed25519 2021-09-07 [S] [expires: 2024-12-31]
+sub   ed25519 2021-09-07 [S] [expires: 2025-12-31]
       B71D A984 8E17 C6E7 72A3  C3C4 FD11 06C9 445D 42D0
-sub   cv25519 2021-09-07 [E] [expires: 2024-12-31]
+sub   cv25519 2021-09-07 [E] [expires: 2025-12-31]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
-sub   ed25519 2021-09-07 [A] [expires: 2024-12-31]
+sub   ed25519 2021-09-07 [A] [expires: 2025-12-31]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
 ```
 
@@ -85,23 +81,23 @@ BTW, here is a copy of my public keys.
 mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
 /iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
 ZT6IkAQTFggAOAIbAQIeAQIXgAILCQIVCQUWAgMBABYhBDZIZKOhr0F02b3nxmB2
-y7oj6YpXBQJmihgJBQkGPNg2AAoJEGB2y7oj6YpXzlcA/RL7QiEZUdBlIivTnohH
-aH9jylD4G129fidllD9sJ9wlAP4wjdFZsJDBqbQx3ldj6Xx7h7CvDM5pMiioZXD1
-6JdUCbgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
-sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCZooY
-KQUJBjzXzgCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
+y7oj6YpXBQJndBGrBQkIHnjdAAoJEGB2y7oj6YpXN4YBANU5+zpTwWh3tboeUwEN
+nhL6Y3pukixkvjDxXnTMoa1bAP9t5MavhlBJpvwLNsy2NglSEonAuROI1+YpJxqc
+V1c3CbgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
+sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCZ3QS
+NgUJCB55AwCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
 CRD9EQbJRF1C0CYvAPsGsFqWbDSAAyZhLOJlJBJc3F+8ED+Y4ejwiOoUwIWS7gEA
-nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXauMBAKFN
-2TtG+7EqAcav58gu+FqeVFOxhOu2gXme0whypi8BAP0QESz0VFK5bFjYKXYNHxzq
-ag7dWFBomGm6mOGlQPuRC7g4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
+nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXI+0BAPyB
++Km6xu9pZWctEb5OpOU8s1Xmyst2Kl6J/XDKaKaAAP4iqskufgUnfL9FTdBoQqdf
+3XvW4gTvBRhwDXZQupZDD7g4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
 E+dRbJCUN8aUNwkfAsTAqiD7IVNzEgMBCAeIfgQYFggAJgIbDBYhBDZIZKOhr0F0
-2b3nxmB2y7oj6YpXBQJmihgpBQkGPNerAAoJEGB2y7oj6YpXCEYA/RtmelDUdNV2
-Nx3BrO3HiwsrqpnFRnx/xQruxg8liqGMAP9v2pYq1i1iYdHNZyDEFPOSLTc0DzZV
-hWGL7VsVC5RkAbgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
+2b3nxmB2y7oj6YpXBQJndBI2BQkIHnjgAAoJEGB2y7oj6YpX1mkBAL887hDn4gnY
+hVgdsi0n9Cc1hVyL2usf3YwckwHY9ap9AP9LtaUgh1gvPXp9vgtpcRygXWyfO81R
+PZ9Ja7jJU3JpDbgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
 LSsnRWPtgGXRkjQZzYXUiH4EGBYIACYCGyAWIQQ2SGSjoa9BdNm958Zgdsu6I+mK
-VwUCZooYKQUJBjzXnQAKCRBgdsu6I+mKV1f+AP0Rv7GWBR86U0b+s0Gni3ZhQ8VR
-nfpuxnwD0D28CDJsEgD+LnXWdOArRYFpcZqr95LkDet3JI6utjTToU4qYrKo3AA=
-=nOwz
+VwUCZ3QSNwUJCB540gAKCRBgdsu6I+mKV04RAP9vLLhbj+Rl8kd99K7rqaCRYvIy
+IILMz1/g52CUn4uHGwEAh+TihE3IiL3hm0N1FQZPCcp3BqFyWQ65SfAflThgcQg=
+=pMYB
 -----END PGP PUBLIC KEY BLOCK-----
 
 ```
