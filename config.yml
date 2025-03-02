@@ -1,8 +1,9 @@
 baseURL: "/"
 title: 化猫の幻
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
-copyright: "Copyright © 2021 - 2024 [h3a.moe](https://h3a.moe)"
+copyright: "Copyright © 2021 - 2025 [h3a.moe](https://h3a.moe)"
 
 
 enableRobotsTXT: true
@@ -20,14 +21,14 @@ params:
   title: 化猫の幻
   description: "Hexo ～丢人～"
   keywords: []
-  author: H3arn
+  # author: H3arn
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  # ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true

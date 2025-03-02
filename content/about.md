@@ -1,7 +1,7 @@
 ---
-title: About
-date: 2021-08-24 23:00:11
-updated: 2021-09-14 16:52:00
+title: 'About'
+# date: '2021-08-24 23:00:11'
+# updated: '2021-09-14 16:52:00'
 ---
 
 
@@ -60,17 +60,20 @@ You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubun
 **Must confirm that all four fingerprints are correct before you import the keys:**
 
 ```text
-$ gpg --show-keys --fingerprint --with-subkey-fingerprints h3arn.gpg
-
+$ gpg --show-keys --fingerprint --with-subkey-fingerprints --with-sig-check h3arn.gpg
 pub   ed25519 2021-09-07 [C] [expires: 2025-12-31]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
 uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
+sig 3        6076CBBA23E98A57 2024-12-31  [self-signature]
 sub   ed25519 2021-09-07 [S] [expires: 2025-12-31]
       B71D A984 8E17 C6E7 72A3  C3C4 FD11 06C9 445D 42D0
+sig          6076CBBA23E98A57 2024-12-31  [self-signature]
 sub   cv25519 2021-09-07 [E] [expires: 2025-12-31]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
+sig          6076CBBA23E98A57 2024-12-31  [self-signature]
 sub   ed25519 2021-09-07 [A] [expires: 2025-12-31]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
+sig          6076CBBA23E98A57 2024-12-31  [self-signature]
 ```
 
 BTW, here is a copy of my public keys. 
@@ -102,6 +105,62 @@ IILMz1/g52CUn4uHGwEAh+TihE3IiL3hm0N1FQZPCcp3BqFyWQ65SfAflThgcQg=
 
 ```
 
+Besides, I have a dedicated key for Apple devices, signed by my main key. 
+
+When validating it, remember to import my main public key first.
+
+```text
+$ gpg --show-keys --fingerprint --with-subkey-fingerprints --with-sig-check h3arn-aapl.pub
+pub   ed25519 2025-02-18 [C] [expires: 2025-12-31]
+      5D7F EC98 7ED4 E84C BB61  EA87 50F7 17A4 F375 1014
+uid                      H3arn (Hearn's PGP Key for AAPL) <root@h3a.moe>
+sig 3        50F717A4F3751014 2025-02-18  [self-signature]
+sig          6076CBBA23E98A57 2025-02-20  H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
+sub   ed25519 2025-02-18 [S] [expires: 2025-12-31]
+      04C5 3F46 844B F2AE 0DE5  B637 093D 101D 3C48 48A7
+sig          50F717A4F3751014 2025-02-18  [self-signature]
+sub   cv25519 2025-02-18 [E] [expires: 2025-12-31]
+      69AC BA5B 9181 4D16 4CA7  B4E0 1B9F E960 77C2 373B
+sig          50F717A4F3751014 2025-02-18  [self-signature]
+sub   ed25519 2025-02-18 [A] [expires: 2025-12-31]
+      A50C 55C0 6E1E F9E7 DEDE  C6FF 15F1 11F0 40C8 981D
+sig          50F717A4F3751014 2025-02-18  [self-signature]
+
+```
+
+This key is only available on GitHub, Codeberg, [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=root%40h3a.moe&fingerprint=on&op=index) and pgp.mit.edu (not recommended, veryyyyyyyyy slow). 
+
+Here is a copy of this key. 
+
+```pgp
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEZ7TF1hYJKwYBBAHaRw8BAQdA3m3kxDUXwpbw4Wf5sV/YF9DoSUuNEgqi/DkU
+CdoJXhe0L0gzYXJuIChIZWFybidzIFBHUCBLZXkgZm9yIEFBUEwpIDxyb290QGgz
+YS5tb2U+iJkEExYKAEEWIQRdf+yYftToTLth6odQ9xek83UQFAUCZ7TF1gIbAQUJ
+AaCCmgULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRBQ9xek83UQFKcpAP9D
+8JgbPYjXKFdAOaG6Rb1KXXjAzTLe4OflrlhP6FUhcQEAq3W8Nz+En4E/B4nmRw8t
+PvOQiJCTOS2TRs86TG7sjQaIdQQQFgoAHRYhBDZIZKOhr0F02b3nxmB2y7oj6YpX
+BQJnt2yTAAoJEGB2y7oj6YpX658A/RLNv/jAKgMFffmyB5e/AtFPkFEgAmnSUHe7
+9fScEGRHAQC5BbaxTV/zskYsh0WOcPqDamIsx9Qz9NlHaivhdyGTCbgzBGe0xf4W
+CSsGAQQB2kcPAQEHQBxUg4nTYH1Y3nThAz2HrYaPgE8x3WECJOkG2bVNpF/giPUE
+GBYKACYWIQRdf+yYftToTLth6odQ9xek83UQFAUCZ7TF/gIbAgUJAaCCOwCBCRBQ
+9xek83UQFHYgBBkWCgAdFiEEBMU/RoRL8q4N5bY3CT0QHTxISKcFAme0xf4ACgkQ
+CT0QHTxISKd0HwD/dO+XIfsM99ZG6GwWhnzNiVg6KZxxUpbhVpPZ+sJaKMUBAKro
+bCGFqhJKgYU0cKZYga7M98/hmsyElEAEqkr2POoI4RoBAPk7QeJ1kTVblxrz2CtL
+O+o++/wCuxGzwH37SIL3wIUaAQD/kXREaJ7z/29s5RegMv0Y7vWfTtTIdPK6Xrig
+sP82C7g4BGe0xhgSCisGAQQBl1UBBQEBB0AVNQ56iB7Xh0gKbawZ9F7sMY8oKTd6
+iwVZTjg9fjfATAMBCAeIfgQYFgoAJhYhBF1/7Jh+1OhMu2Hqh1D3F6TzdRAUBQJn
+tMYYAhsMBQkBoIIiAAoJEFD3F6TzdRAU7dkBAPTT0FpqJPjGuq1xqUo14ltoQQev
+kIBeM4QWQeZpA1ggAQCfIumjJYD58sgSVDGZuA5Rm/kjGRle5Pz6zhi1YmENArgz
+BGe0xjEWCSsGAQQB2kcPAQEHQLy34X8FzLnjexxFKGxJSpyTzHVP049phxqq4tT5
+SocTiH4EGBYKACYWIQRdf+yYftToTLth6odQ9xek83UQFAUCZ7TGMQIbIAUJAaCC
+BwAKCRBQ9xek83UQFIjwAPsFMnYvAuSUXLo2tQWfarc1ugZaRUThDm9GmZFvS69j
+MQEA4OOE9IOEOWRIJg3KvNaQjH5RqjVfurtU97JRHHlHuw0=
+=J5aE
+-----END PGP PUBLIC KEY BLOCK-----
+
+```
 
 ## Contact
 
@@ -114,11 +173,8 @@ I also own the following accounts, but I don't check them regularly.
 ```TXT
 @h3arn:nya.one
 @h3arn:nope.chat
-@h3arn:libcom.de
 @h3arn:comm.cx
 @h3arn:matrix.fedibird.com
-@h3arn:chat.usr.nz
----
-@h3arn:matrix.org  (NOT recommended)
-@h3arn:mozilla.org (NOT recommended)
+@h3arn:matrix.org  
+@h3arn:mozilla.org 
 ```
