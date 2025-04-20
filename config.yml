@@ -47,11 +47,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/img/icon.png"
-    favicon16x16: "/img/icon.png"
-    favicon32x32: "/img/icon.png"
-    apple_touch_icon: "/img/icon.png"
-    safari_pinned_tab: "/img/icon.png"
+    favicon: "/img/icon03.jpg"
+    favicon16x16: "/img/icon03.jpg"
+    favicon32x32: "/img/icon03.jpg"
+    apple_touch_icon: "/img/icon03.jpg"
+    safari_pinned_tab: "/img/icon03.jpg"
 
   label:
     text: "化猫の幻"
