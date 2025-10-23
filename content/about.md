@@ -107,7 +107,7 @@ IILMz1/g52CUn4uHGwEAh+TihE3IiL3hm0N1FQZPCcp3BqFyWQ65SfAflThgcQg=
 
 Besides, I have a dedicated key for Apple devices, signed by my main key. 
 
-When validating it, remember to import my main public key first.
+Before validating it, remember to import my main public key first.
 
 ```text
 $ gpg --show-keys --fingerprint --with-subkey-fingerprints --with-sig-check h3arn-aapl.pub
@@ -128,7 +128,7 @@ sig          50F717A4F3751014 2025-02-18  [self-signature]
 
 ```
 
-This key is only available on GitHub, Codeberg, [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=root%40h3a.moe&fingerprint=on&op=index) and pgp.mit.edu (not recommended, veryyyyyyyyy slow). 
+This key is only available on GitHub, Codeberg, [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=root%40h3a.moe&fingerprint=on&op=index) and pgp.mit.edu (not recommended, verrrrrrry slow). 
 
 Here is a copy of this key. 
 
