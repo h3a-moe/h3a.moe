@@ -30,10 +30,27 @@ Interested in STEAM. Computers and Networking, especially.
 
 Want to be a literary girl, more than anything. 
 
-
-
 <!--/div-->
 <!--A crossdressing beginner.--> 
+
+
+
+## Contact
+
+Apart from my email listed in PGP public key, it's possible to reach me via Matrix too. 
+
+Preferred choice: `@h3arn:nitro.chat`
+
+I also own the following accounts, but I don't check them regularly. 
+
+```TXT
+@h3arn:nya.one
+@h3arn:nope.chat
+@h3arn:comm.cx
+@h3arn:matrix.fedibird.com
+@h3arn:matrix.org  
+@h3arn:mozilla.org 
+```
 
 
 
@@ -105,9 +122,9 @@ IILMz1/g52CUn4uHGwEAh+TihE3IiL3hm0N1FQZPCcp3BqFyWQ65SfAflThgcQg=
 
 ```
 
-Besides, I have a dedicated key for Apple devices, signed by my main key. 
+I have a dedicated key for Apple devices, **deprecated** since 2025-11-03 and will irreversibly expire on 2025-12-31, but still retained so that old commits remains verifiable. 
 
-Before validating it, remember to import my main public key first.
+If you still need to validate it, remember to import my main public key first. 
 
 ```text
 $ gpg --show-keys --fingerprint --with-subkey-fingerprints --with-sig-check h3arn-aapl.pub
@@ -128,9 +145,7 @@ sig          50F717A4F3751014 2025-02-18  [self-signature]
 
 ```
 
-This key is only available on GitHub, Codeberg, [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=root%40h3a.moe&fingerprint=on&op=index) and pgp.mit.edu (not recommended, verrrrrrry slow). 
-
-Here is a copy of this key. 
+Here is a copy of this public key. 
 
 ```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -160,21 +175,4 @@ MQEA4OOE9IOEOWRIJg3KvNaQjH5RqjVfurtU97JRHHlHuw0=
 =J5aE
 -----END PGP PUBLIC KEY BLOCK-----
 
-```
-
-## Contact
-
-Apart from my email listed in PGP public key, it's possible to reach me via Matrix too. 
-
-Preferred choice: `@h3arn:nitro.chat`
-
-I also own the following accounts, but I don't check them regularly. 
-
-```TXT
-@h3arn:nya.one
-@h3arn:nope.chat
-@h3arn:comm.cx
-@h3arn:matrix.fedibird.com
-@h3arn:matrix.org  
-@h3arn:mozilla.org 
 ```
