@@ -79,7 +79,11 @@ params:
         url: "https://misc.h3a.moe"
       - name: Blog Archive v1
         url: "https://blog-archive-v1.h3a.moe"
- 
+      - name: Bangumi
+        url: "https://bangumi.tv/user/h3arn"
+      - name: NeoDB
+        url: " https://neodb.social/users/H3arn"
+
   socialIcons:
     - name: key
       url: "/about/#pgp"
