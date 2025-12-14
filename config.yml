@@ -61,8 +61,13 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: H3arn
-    subtitle: "*I suppose we all thought that, one way or another.*" #"*我的痛苦與歡欣都是真的，鮮活的，我不後悔。*"
+    title: "H3arn" 
+    #"`H3arn`"
+    subtitle: |
+      [*I suppose we all thought that,  
+      one way or another.*](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer#Trinity)
+    # 2 spaces are appended to the first line to do hard line break 
+    #"*我的痛苦與歡欣都是真的，鮮活的，我不後悔。*"
     imageUrl: "img/myavatar.jpg"
     # imageWidth: 150
     # imageHeight: 150
