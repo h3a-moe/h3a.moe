@@ -58,7 +58,7 @@ I also own the following accounts, but I don't check them regularly.
 
 ---
 
-***This key will expire on 2025-12-31.***
+***This key will expire on 2026-03-01.***
 
 ***If the key was not renewed and no new key was released by that time, I would have probably been imprisoned or even dead then.***
 
@@ -78,19 +78,19 @@ You might find my keys on `keys.openpgp.org`, `pgp.mit.edu`, and `keyserver.ubun
 
 ```text
 $ gpg --show-keys --fingerprint --with-subkey-fingerprints --with-sig-check h3arn.gpg
-pub   ed25519 2021-09-07 [C] [expires: 2025-12-31]
+pub   ed25519 2021-09-07 [C] [expires: 2026-03-01]
       3648 64A3 A1AF 4174 D9BD  E7C6 6076 CBBA 23E9 8A57
 uid                      H3arn (Hearn's PGP key v2.0) <root@h3a.moe>
-sig 3        6076CBBA23E98A57 2024-12-31  [self-signature]
-sub   ed25519 2021-09-07 [S] [expires: 2025-12-31]
+sig 3        6076CBBA23E98A57 2025-12-20  [self-signature]
+sub   ed25519 2021-09-07 [S] [expires: 2026-03-01]
       B71D A984 8E17 C6E7 72A3  C3C4 FD11 06C9 445D 42D0
-sig          6076CBBA23E98A57 2024-12-31  [self-signature]
-sub   cv25519 2021-09-07 [E] [expires: 2025-12-31]
+sig          6076CBBA23E98A57 2025-12-20  [self-signature]
+sub   cv25519 2021-09-07 [E] [expires: 2026-03-01]
       1EA5 4FFF 224C 5519 A0F8  130E 04FA DDFF 8143 BEAE
-sig          6076CBBA23E98A57 2024-12-31  [self-signature]
-sub   ed25519 2021-09-07 [A] [expires: 2025-12-31]
+sig          6076CBBA23E98A57 2025-12-20  [self-signature]
+sub   ed25519 2021-09-07 [A] [expires: 2026-03-01]
       6B72 542F 15EE BE1A D86F  B2E5 44F2 450F 50BF E621
-sig          6076CBBA23E98A57 2024-12-31  [self-signature]
+sig          6076CBBA23E98A57 2025-12-20  [self-signature]
 ```
 
 BTW, here is a copy of my public keys. 
@@ -101,23 +101,23 @@ BTW, here is a copy of my public keys.
 mDMEYTbMThYJKwYBBAHaRw8BAQdARJMGZ9qK2gGbEb6yBTeUl4StmMYYf0uBZzrV
 /iPxwL20K0gzYXJuIChIZWFybidzIFBHUCBrZXkgdjIuMCkgPHJvb3RAaDNhLm1v
 ZT6IkAQTFggAOAIbAQIeAQIXgAILCQIVCQUWAgMBABYhBDZIZKOhr0F02b3nxmB2
-y7oj6YpXBQJndBGrBQkIHnjdAAoJEGB2y7oj6YpXN4YBANU5+zpTwWh3tboeUwEN
-nhL6Y3pukixkvjDxXnTMoa1bAP9t5MavhlBJpvwLNsy2NglSEonAuROI1+YpJxqc
-V1c3CbgzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
-sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCZ3QS
-NgUJCB55AwCBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
+y7oj6YpXBQJpRtcJBQkIbV3zAAoJEGB2y7oj6YpX/9QA/isBHp+jl2/Boteo3jCp
+EcrTpMA0qqUtcaREAtP9U9gZAP4u2EroA3C69bRHbWntfYpwh4fYJMMyaOTd6jfE
+a5EXC7gzBGE2zLMWCSsGAQQB2kcPAQEHQLW9Ub4cVSeev4jL9vxloxXBrsuVz1Vy
+sftOwKfZ2ETmiPUEGBYIACYCGwIWIQQ2SGSjoa9BdNm958Zgdsu6I+mKVwUCaUbW
+xgUJCG1dkACBdiAEGRYIAB0WIQS3HamEjhfG53Kjw8T9EQbJRF1C0AUCYTbMswAK
 CRD9EQbJRF1C0CYvAPsGsFqWbDSAAyZhLOJlJBJc3F+8ED+Y4ejwiOoUwIWS7gEA
-nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXI+0BAPyB
-+Km6xu9pZWctEb5OpOU8s1Xmyst2Kl6J/XDKaKaAAP4iqskufgUnfL9FTdBoQqdf
-3XvW4gTvBRhwDXZQupZDD7g4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
+nmlTMuhS7gXsuK5FEzHL6sKddQPHGlDhGzfcE11HQgsJEGB2y7oj6YpXNVsBAJm2
+J0rJImtni+uqlmniIQPjoZ44zLpNWMbTR21FQiyAAP4p9rF4OuO+dI0FGBzv+c8R
+dDHLSmcgVgd3TYDtOb1gCLg4BGE2zNYSCisGAQQBl1UBBQEBB0DRDlDBTjQxKQiA
 E+dRbJCUN8aUNwkfAsTAqiD7IVNzEgMBCAeIfgQYFggAJgIbDBYhBDZIZKOhr0F0
-2b3nxmB2y7oj6YpXBQJndBI2BQkIHnjgAAoJEGB2y7oj6YpX1mkBAL887hDn4gnY
-hVgdsi0n9Cc1hVyL2usf3YwckwHY9ap9AP9LtaUgh1gvPXp9vgtpcRygXWyfO81R
-PZ9Ja7jJU3JpDbgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
+2b3nxmB2y7oj6YpXBQJpRtbNBQkIbV1tAAoJEGB2y7oj6YpXVv0A/1zPxiRw5Y7V
+lLrTtMseg4Y1vUh0HZGdhQ5/cAEWlOQWAQDpcVKnq807tMzkMJDGa8JIB0l6nEHu
+Ud2fKSrR6NwzCrgzBGE2zOQWCSsGAQQB2kcPAQEHQBGd6eaME1tqKEXuI+BiwOq6
 LSsnRWPtgGXRkjQZzYXUiH4EGBYIACYCGyAWIQQ2SGSjoa9BdNm958Zgdsu6I+mK
-VwUCZ3QSNwUJCB540gAKCRBgdsu6I+mKV04RAP9vLLhbj+Rl8kd99K7rqaCRYvIy
-IILMz1/g52CUn4uHGwEAh+TihE3IiL3hm0N1FQZPCcp3BqFyWQ65SfAflThgcQg=
-=pMYB
+VwUCaUbW6wUJCG1dXwAKCRBgdsu6I+mKV8DjAP9udPgeQ3iDq1XUbh/i3mwdMOGr
+k3gTW5g7ETt2QGIKMQEA9EGRrTFn1zkvivXPZEgxPkwimreqa1RzjNPCRQzKeAk=
+=d4ZM
 -----END PGP PUBLIC KEY BLOCK-----
 
 ```
